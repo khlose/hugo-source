@@ -128,7 +128,7 @@ googleAnalytics = ""
     enable = true
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "More<br>to<br>come!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -262,7 +262,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "spinkoh@purdue.edu"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
