@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://khlose.github.io/"
 languageCode = "en-us"
-title = "Agency"
+title = "Schwin P"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -45,12 +45,12 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Schwin P"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    portfolio = "Projects"
+    experience = "Experience"
     team = "Team"
     contact = "Contact"
 
@@ -83,7 +83,7 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Services"
+    title = "About me"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
@@ -114,7 +114,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Compiled list of projects that I've worked on."
 
     [params.portfolio.modal]
       client = "Client"
@@ -124,43 +124,37 @@ googleAnalytics = ""
 
 
     # About section
-  [params.about]
+  [params.experience]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Experience"
+    subtitle = "Icluding Internship, teaching assistance, and more!"
     endpoint = "More<br>to<br>come!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      date = "Summer 2015"
+      title = "Windows App Developer <br>@ Anywhere 2 go Co., LTD"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "2.jpg"
-      date = "March 2011"
+      date = "Spring 2016"
       title = "An Agency is Born"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "3.jpg"
-      date = "December 2012"
+      date = "Summer 2017"
       title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -209,39 +203,11 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
-
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
-
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Contact me"
+    subtitle  = " "
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
