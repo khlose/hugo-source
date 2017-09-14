@@ -84,7 +84,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About me"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Skill sets."
 
     [[params.services.row]]
 
