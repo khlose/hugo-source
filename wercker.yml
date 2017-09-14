@@ -3,6 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.17"
+        theme: hugo-agency-theme
         flags: --buildDrafts=true
 deploy:
   steps:
