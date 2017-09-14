@@ -22,3 +22,11 @@ build:
   steps:
           - arjen/hugo-build@1.21.0:
                   version: "HEAD"
+  deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: hugo-wercker.ig.nore.me
+        basedir: public
