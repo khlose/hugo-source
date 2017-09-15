@@ -77,7 +77,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "[Under Maintenance!](/resume/Schwin-P-resume.pdf)"
     subtitle = "Will Be Available Soon!"
-    buttonText = "[Tell me more]"
+    buttonText = "Tell me more"
 
 
   # Services section
