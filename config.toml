@@ -75,8 +75,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Under Maintenance!"
+    subtitle = "Will Be Available Soon!"
     buttonText = "Tell me more"
 
 
@@ -275,7 +275,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/schwinp/"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
