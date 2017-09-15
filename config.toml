@@ -48,7 +48,7 @@ googleAnalytics = ""
     brand = "Schwin P"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    services = "About me"
     portfolio = "Projects"
     experience = "Experience"
     team = "Team"
