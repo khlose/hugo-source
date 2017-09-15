@@ -142,13 +142,13 @@ googleAnalytics = ""
     [[params.experience.events]]
       img = "2.jpg"
       date = "Spring 2016"
-      title = "An Agency is Born"
+      title = "Lab Instructor <br>@ CS159 Purdue University"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.experience.events]]
       img = "3.jpg"
       date = "Summer 2017"
-      title = "Our Humble Beginnings"
+      title = "Embedded Software Engineer<br>@ Lutron Electronics"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
