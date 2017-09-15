@@ -67,7 +67,7 @@ googleAnalytics = ""
     # postpended links
     [[menu.postpend]]
       url = "https://github.com/khlose"
-      name = "My resume"
+      name = "GitHub"
       weight = 10
 
 
@@ -75,9 +75,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Under Maintenance!"
+    title = "[Under Maintenance!](/resume/Schwin-P-resume.pdf)"
     subtitle = "Will Be Available Soon!"
-    buttonText = "Tell me more"
+    buttonText = "[Tell me more]"
 
 
   # Services section
