@@ -127,29 +127,29 @@ googleAnalytics = ""
   [params.experience]
     enable = true
     title = "Experience"
-    subtitle = "Icluding Internship, teaching assistance, and more!"
+    subtitle = "Including Internship, teaching assistance, and more!"
     endpoint = "More<br>to<br>come!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.experience.events]]
-      img = "1.jpg"
+      img = "index.png"
       date = "Summer 2015"
       title = "Windows App Developer <br>@ Anywhere 2 go Co., LTD"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "Developing Windows Universal Application for employer's existing product, deriving functionality from Android and iOS applications to native windows application."
 
     [[params.experience.events]]
-      img = "2.jpg"
+      img = "puen.jpeg"
       date = "Spring 2016"
       title = "Lab Instructor <br>@ CS159 Purdue University"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "Assisting freshmen in learning and writing C program more efficiently and effectively."
 
     [[params.experience.events]]
-      img = "3.jpg"
+      img = "chip.png"
       date = "Summer 2017"
       title = "Embedded Software Engineer<br>@ Lutron Electronics"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "Developing a prototype for Lutron’s commercial motorized shade equipped with RF communication capability. Adding PC-Lint to build config and multiple bugs fixed"
 
 
   # Team section
@@ -228,7 +228,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "spinkoh@purdue.edu"
+    email = "schwin60@hotmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -266,12 +266,12 @@ She worked at Pied Piper for years until they went belly up."""
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+      icon = "fa-github"
+      link = "https://github.com/khlose"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+    #[[params.footer.social]]
+    #  icon = "fa-facebook"
+    #  link = "#"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
